@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<div class="about_page">
+  {% extends 'blog/base.html' %}
+  {% block content %}
+  <div class="about_content">
+    <div class="jumbotron">
+    <h1>Introduction to my blog!</h1>
+    <p>The front end of the project is based on HTML, CSS, Javascript, and uses Bootstrap, jQuery framework. The backend is based on Python, SQL and Django, which implements the Blog implementation</p>
+
+    <div class="row">
+      <!-- <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail"><img src= alt="..."></a>
+      </div>
+      <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail"><img src= alt="..."></a>
+      </div>
+      <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail"><img src= alt="..."></a>
+      </div> -->
+      <div class="col-xs-12 col-md-12">
+        <a href="#" class="thumbnail"><img src="https://twilio-cms-prod.s3.amazonaws.com/original_images/django-dark.png" alt=''></a>
+      </div>
+    </div>
+    <p>  Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.</p>
+    <p><a class="btn btn-primary btn-lg" href="https://www.djangoproject.com/" role="button">Learn more about Django</a></p>
+    </div>
+  </div>
+
+  <table class='tools'>
+    <tr>
+      <td class='card card-0'> <h1>Tool</h1> </td>
+
+      <td class='card card-1'>
+      <ul>
+        <li>HTML</li>
+        <li>Css</li>
+        <li>javascript</li>
+        <li>Bootstrap</li>
+        <li>jQuery</li>
+      </ul>
+      </td>
+
+      <td class='card card-2'>
+        <ul>
+          <li>Python</li>
+          <li>Django</li>
+          <li>SQL</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+  {% endblock %}
+</div>

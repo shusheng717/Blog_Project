@@ -1,0 +1,183 @@
+
+.techfont{
+  font-family: 'Tiro Gurmukhi', serif;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.post{
+  border: 2px dotted black;
+  border-top:0px;
+  border-left:0px;
+  border-right:0px;
+}
+.single_comment{
+  border:1.5px dotted black;
+  border-left:0px;
+  border-right:0px;
+  font-size: 1.8em;
+}
+
+.single_comment_p{
+  font-size: 0.6em;
+  color:grey;
+}
+.comment_head{
+  padding-top:30px;
+}
+.detail_ground{
+  background-color: white;
+  margin-left:50px;
+  margin-right:0px;
+  width:120%;
+  opacity: 0.65;
+}
+
+.postdate{
+  text-align: center;
+}
+
+.posttitle{
+  font-family: 'Tiro Gurmukhi', serif;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+.centerstage{
+  background: linear-gradient(90deg, #C7C5F4, #776BCC);
+  border:1px solid white;
+  border-radius: 2%;
+  width:145%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-comment{
+  position: absolute;
+  right: 0px;
+}
+
+.bigbrand{
+  font-size: 1.5em;
+}
+
+
+/*COLOR CHANGER*/
+/*Credit and Source: http://codepen.io/thapliyalshivam/pen/dvgXVO*/
+.loader{
+  filter:hue-rotate(0deg);
+  color: linear-gradient(45deg,#0f8,#08f);
+  animation:hue 5000ms infinite linear;
+}
+
+@keyframes spinify {
+  0% {
+    transform: translate(0px,0px);
+
+  }
+  33% {
+    transform: translate(0px,24px);
+    border-radius:100%;
+    width:10px;
+    height:10px;
+
+  }
+   66% {
+    transform:translate(0px,-16px);
+  }
+
+   88% {
+    transform:translate(0px,4px);
+
+  }
+  100% {
+    transform:translate(0px,0px);
+  }
+}
+@keyframes hue{
+  0%{filter: hue-rotate(0deg);}
+  100%{filter:hue-rotate(360deg);}
+
+}
+
+
+body {
+	background: linear-gradient(90deg, #C7C5F4, #776BCC);
+}
+
+body {
+  margin: auto;
+  background-color: #eee;
+  background-image: url("https://images7.alphacoders.com/938/thumb-1920-938300.jpg");
+
+  background-attachment:fixed;
+  height: 100vh;
+  /* overflow: hidden; */
+}
+
+
+.card {
+  backdrop-filter: blur(5px);
+  min-width: 35vh;
+  height: 55vh;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.051),
+    0px 0px 7.2px rgba(0, 0, 0, 0.073), 0px 0px 13.6px rgba(0, 0, 0, 0.09),
+    0px 0px 24.3px rgba(0, 0, 0, 0.107), 0px 0px 45.5px rgba(0, 0, 0, 0.129),
+    0px 0px 109px rgba(0, 0, 0, 0.18);
+  border: 100px solid rgba(0, 166, 255, 0);
+}
+
+.card-0{
+  background-color: rgba(0, 166, 255, 0.4);
+}
+
+.card-1 {
+  background-color: rgba(255, 59, 0, 0.4);
+}
+
+.card-2 {
+  background-color: rgba(255, 0, 0, 0.4);
+}
+.tools td{
+  font-size: 2em;
+  text-align: center;
+}
+.about_content{
+  margin:auto;
+  text-align: left;
+  background-color: linear-gradient(90deg, #C7C5F4, #776BCC);
+  width: 145%;
+  font-size: 1.2em;
+}
+.recent_title{
+  text-align: left;
+  text-decoration: underline;
+  font-size: 3em;
+  font-weight: bold;
+}
+.post_form_total{
+  background-color: white;
+  width:80%;
+  opacity: 0.65;
+}
+textarea{
+  width:200px;
+  height:
+}
+
+
+.delete_form{
+  font-size: 3em;
+  background-color: white;
+  padding:40px;
+  width:130%;
+  opacity: 0.65;
+}
+.post-form{
+  font-size: 2em;
+  background-color: white;
+  padding:40px;
+  width:130%;
+  opacity: 0.65;
+}
